@@ -1,8 +1,9 @@
 # Agentic-ai
 
 ## Project Structure
-<details>
 <summary>Click to expand</summary>
+<details>
+
 ```
 Agentic-ai
 ├── README.md
@@ -10,4 +11,5 @@ Agentic-ai
     └── basic_workflows.ipynb
 
 ```
+
 </details>
