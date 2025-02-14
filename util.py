@@ -6,14 +6,13 @@ from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-def llm_call(prompt: str, system_prompt: str, model="gpt-4o-mini") -> str:
+def llm_call(prompt: str,model="gpt-4o") -> str:
     # Calls the model and return the response
     client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
     messages = [{"role": "user", "content": prompt}]
     response = client.chat.completions.create(
         model=model,
         messages=messages,
-        system_message={"content": system_prompt},
         max_tokens=4096,
         temperature=0.2
     )
