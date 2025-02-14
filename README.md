@@ -2,7 +2,7 @@
 
 
 <details>
-<summary>## Project Structure</summary>
+## Project Structure
 
 
 ```
