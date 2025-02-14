@@ -1,8 +1,8 @@
 # Agentic-ai
 
-## Project Structure
+
 <details>
-<summary>Click to expand</summary>
+<summary>## Project Structure</summary>
 
 
 ```
