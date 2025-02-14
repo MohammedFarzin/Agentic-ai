@@ -2,8 +2,6 @@
 
 
 ## Project Structure
-<details>
-
 
 ```
 Agentic-ai
@@ -12,5 +10,3 @@ Agentic-ai
     └── basic_workflows.ipynb
 
 ```
-
-</details>
