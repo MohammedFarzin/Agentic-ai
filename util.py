@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-def llm_call(prompt: str,model="gpt-4o") -> str:
+def llm_call(prompt: str,model="gpt-3.5-turbo") -> str:
     # Calls the model and return the response
     client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
     messages = [{"role": "user", "content": prompt}]
