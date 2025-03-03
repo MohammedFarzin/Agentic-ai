@@ -8,8 +8,10 @@ Agentic-ai
 ├── README.md
 ├── basic_workflows
 │   └── basic_workflows.ipynb
-├── deeplearning.AI
-│   └── essay_writer.ipynb
-└── util.py
+|   └── util.py
+├── AI agents projects
+│   └── essay_writer
+│       └── essay_writer.ipynb
+
 
 ```
